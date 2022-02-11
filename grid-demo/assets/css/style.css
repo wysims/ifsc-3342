@@ -37,7 +37,7 @@ background-image:url("../img/grid.png");*/
 
 header.primary {
   background: rgba(214, 211, 21, 0.8);
-  width: 732px;
+  width: 707px;
   margin: 25px;
   float: left;
   padding: 20px;
@@ -47,20 +47,20 @@ header.primary {
   background: rgba(214, 211, 21, 0.6);
   float: left;
   width: 346px;
-  margin-left: 20px;
+  margin-left: 24px;
   padding: 20px;
 }
 
 aside {
-  width: 262px;
+  width: 350px;
   float: left;
   background: rgba(214, 211, 21, 0.3);
-  margin-left: 20px;
+  margin-left: 24px;
 }
 
 footer.primary {
   background: rgba(214, 211, 21, 0.8);
-  width: 732px;
+  width: 707px;
   margin: 25px;
   float: left;
   padding: 20px;
