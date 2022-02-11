@@ -1,68 +1,67 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* Start of "Micro clearfix" */
+
+.cf {
+  zoom: 1;
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+/* End of "Micro clearfix" */
   
-  /*Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/ */
-  /* Start of "Micro clearfix" */
-  
-  .cf {
-    zoom: 1;
-  }
-  .cf:before,
-  .cf:after {
-    content: "";
-    display: table;
-  }
-  .cf:after {
-    clear: both;
-  }
-  
-  /* End of "Micro clearfix" */
-  
-  /*
-  background-image:url("../img/grid.png");*/
-  
-  .container {
-    width: 760px;
-    margin: 25px auto;
-    border: 1px solid #000;
-    background-image: url("../img/grid.png");
-  }
-  
-  header.primary {
-    background: rgba(0, 0, 0, 0.4);
-    width: 920px;
-    margin: 20px;
-    float: left;
-    padding: 20px;
-  }
-  
-  #content {
-    background: rgba(0, 0, 0, 0.6);
-    float: left;
-    width: 638px;
-    margin-left: 20px;
-    padding: 20px;
-  }
-  
-  aside {
-    width: 262px;
-    float: left;
-    background: rgba(0, 0, 0, 0.3);
-    margin-left: 20px;
-  }
-  
-  footer.primary {
-    background: rgba(0, 0, 0, 0.4);
-    width: 920px;
-    margin: 20px;
-    float: left;
-    padding: 20px;
-  }
-  
+/*
+background-image:url("../img/grid.png");*/
+
+.container {
+  width: 760px;
+  margin: 25px auto;
+  border: 1px solid rgb(5, 5, 5);
+  background-image: url("../img/grid.png");
+}
+
+header.primary {
+  background: rgba(214, 211, 21, 0.8);
+  width: 732px;
+  margin: 25px;
+  float: left;
+  padding: 20px;
+}
+
+#content {
+  background: rgba(214, 211, 21, 0.6);
+  float: left;
+  width: 346px;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+aside {
+  width: 262px;
+  float: left;
+  background: rgba(214, 211, 21, 0.3);
+  margin-left: 20px;
+}
+
+footer.primary {
+  background: rgba(214, 211, 21, 0.8);
+  width: 732px;
+  margin: 25px;
+  float: left;
+  padding: 20px;
+}
