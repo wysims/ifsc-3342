@@ -37,25 +37,29 @@ background-image:url("../img/grid.png");*/
 
 header.primary {
   background: rgba(214, 211, 21, 0.8);
-  width: 707px;
-  margin: 25px;
+  /*707 px */
+  width: 74.964%;
+  margin: 3.289%;
   float: left;
-  padding: 20px;
+  padding: 2.828%;
 }
 
 #content {
   background: rgba(214, 211, 21, 0.6);
   float: left;
-  width: 346px;
-  margin-left: 24px;
-  padding: 20px;
+  /*342.5 px*/
+  width: 45.065%;
+  margin-left:3.289%;
+  padding: 2.828%;
 }
 
 aside {
-  width: 350px;
+  /* 342.5px*/
+  width: 45.065%;
   float: left;
   background: rgba(214, 211, 21, 0.3);
-  margin-left: 24px;
+  margin-left: 3.289%;
+  padding: 2.828%;
 }
 
 footer.primary {
