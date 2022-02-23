@@ -29,7 +29,8 @@ html {
 background-image:url("../img/grid.png");*/
 
 .container {
-  width: 760px;
+  /*760px */
+  width: 80vw;
   margin: 25px auto;
   border: 1px solid rgb(5, 5, 5);
   
@@ -69,3 +70,7 @@ footer.primary {
   float: left;
   padding: 2.828%;
 }
+
+
+
+
