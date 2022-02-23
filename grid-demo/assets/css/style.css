@@ -32,13 +32,13 @@ background-image:url("../img/grid.png");*/
   width: 760px;
   margin: 25px auto;
   border: 1px solid rgb(5, 5, 5);
-  background-image: url("../img/grid.png");
+  
 }
 
 header.primary {
   background: rgba(214, 211, 21, 0.8);
   /*707 px */
-  width: 74.964%;
+  width: 93.026%;
   margin: 3.289%;
   float: left;
   padding: 2.828%;
@@ -64,8 +64,8 @@ aside {
 
 footer.primary {
   background: rgba(214, 211, 21, 0.8);
-  width: 707px;
-  margin: 25px;
+  width: 93.026%;
+  margin: 3.289%;
   float: left;
-  padding: 20px;
+  padding: 2.828%;
 }
