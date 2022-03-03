@@ -261,3 +261,21 @@ textarea {
   }
 }
 
+
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+/* ------ Typography -------*/
+body{font-family: 'Noto Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Source Serif Pro', serif;}
+
+/* ------ Fluid Images -------*/
+
