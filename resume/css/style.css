@@ -273,9 +273,38 @@ html {
 }
 
 /* ------ Typography -------*/
-body{font-family: 'Noto Sans', sans-serif;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Source Serif Pro', serif;}
+body{font-family: 'PT Serif', serif;}
 
 /* ------ Fluid Images -------*/
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+/* ------ Fluid Images -------*/
+
+.container{
+  max-width:400px;
+  margin: 0 auto;
+}
+
+/* ------ Global Styles -------*/
+body{
+  background:#dbcba1d7;
+  color:#222222;
+  line-height:1.4;
+}
+a:link, a:visited{
+  color:#222;
+}
+
+.container{
+  margin:0 auto;
+  background:rgba(0,0,0,.15);
+}
+
+/* ------ Helper Classes -------*/
+
+
 
