@@ -7,10 +7,103 @@
   <title>IFSC 1310 | Whitney Jackson</title>
   <meta name="description" content="Course Homepage For IFSC 3342" />
   <meta name="author" content="Whitney Jackson" />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Header</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<div class="topnav">
+  <a href="pre-assessment/index.html">Pre-assessment</a>
+  <a href="grid-demo//index.html">Grid Demo</a>
+  <a href="resume/index.html">Resume</a>
+  <a href="grid-garden/index.html">Grid Garden</a>
+</div>
+ 
+</body>
+</html>
+
+
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+
+
 
 </head>
-
 <body>
+  <main class="container">
   <h1>Whitney Jackson</h1>
    <nav>
     <ul>
@@ -28,6 +121,6 @@
      </li>
        </ul>
    </nav>
-        
+  </main>   
 </body>
 </html>
