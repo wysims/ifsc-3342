@@ -590,9 +590,9 @@ main {
 
 /*----------------------Media Queries-----------------------*/
 
-@media screen and (min-width:768px){
+@media screen and (min-width:690px){
   
-  .container{max-width:900px;}
+  .container{max-width:840px;}
   main.container {
     grid-template-columns: 36.5% auto;
     grid-template-areas:
