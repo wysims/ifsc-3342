@@ -288,7 +288,14 @@
     max-width:400px;
     margin: 0 auto;
   }
-  
+  /*--------Photo Image-------*/
+  img {
+    border: 5px solid #555;
+  }
+  img {
+    border-radius: 50%;
+  }
+
   /* ------ Global Styles -------*/
   body{
     background:#dbcba1d7;
