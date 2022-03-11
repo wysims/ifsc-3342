@@ -438,7 +438,7 @@ nav a:visited {
   color: #222222;
   text-transform: uppercase;
   font-size: 0.75em;
-  background: rgba(0, 0, 0, 0.65);
+  background:#556b2f; 
   transition: background-color 0.5s ease;
   color: #fff;
 }
