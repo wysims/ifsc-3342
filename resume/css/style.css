@@ -594,7 +594,7 @@ main {
   
   .container{max-width:840px;}
   main.container {
-    grid-template-columns: 36.5% auto;
+    grid-template-columns: 30.5% auto;
     grid-template-areas:
       "title title"
       "about about"
@@ -605,7 +605,7 @@ main {
   #about{
     display:grid;
     grid-gap:2em;
-    grid-template-columns: 300px 1fr auto;
+    grid-template-columns: 280px 1fr auto;
     grid-template-areas:
     "bio details details"
     "related related related";
