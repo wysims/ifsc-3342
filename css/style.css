@@ -1,99 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
   box-sizing: border-box;
 }
-
-body {
-	width: 2182px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-  text-align: center;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	background-image: url("../img/bg-tile.jpg");
-	background-repeat: repeat-x;
-	background-color: #808000;
-	font-size: 16px;
-	line-height: 1.5em;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-/* Style the header */
-.header {
-	background-image: url("../pre-assessment/assets/img/fall2.png");
-	display: block;
-	height: 678px;
-	width: 2060px;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-}
+/*Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* Start of "Micro clearfix" */
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+.cf {
+  zoom: 1;
 }
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row:after {
+.cf:before,
+.cf:after {
   content: "";
   display: table;
+}
+.cf:after {
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
+/* End of "Micro clearfix" */
+  
+/*
+background-image:url("../img/grid.png");*/
+
+.container {
+  /*760px */
+  margin: 25px auto;
+  border: 1px solid rgb(5, 5, 5);
+  
+}
+
+header.primary {
+  background: rgba(214, 211, 21, 0.8);
+  /*707 px */
+  width: 93.026%;
+  margin: 3.289%;
+  float: left;
+  padding: 2.828%;
+}
+
+#content {
+  background: rgba(214, 211, 21, 0.6);
+  float: left;
+  /*342.5 px*/
+  width: 45.065%;
+  margin-left:3.289%;
+  padding: 2.828%;
+}
+
+aside {
+  /* 342.5px*/
+  width: 45.065%;
+  float: left;
+  background: rgba(214, 211, 21, 0.3);
+  margin-left: 3.289%;
+  padding: 2.828%;
+}
+
+footer.primary {
+  background: rgba(214, 211, 21, 0.8);
+  width: 93.026%;
+  margin: 3.289%;
+  float: left;
+  padding: 2.828%;
+}
+
+
+@media screen and (min-width:800px){
+  .container{
+    width:75vw;
   }
 }
-</style>
-</head>
-<body>
 
-<div class="header">
-  <h1>Header</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
-</div>
+@media screen and (min-width:600px){
+  .container{
+    width:65vw;
+  }
+}
 
-<div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-</div>
-
-
-</body>
-</html>
-
-
-
+@media screen and (min-width:1100px){
+  .container{
+    width:55vw;
+ 
+  }
+}
