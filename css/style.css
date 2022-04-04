@@ -9,7 +9,7 @@ Universal Selector-Zeros out margin/padding
 body {
 	text-align: center;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	background-image: url("../img/bg-tile.jpg");
+	background-image: url("../css/img/bgg.jpg");
 	background-repeat: repeat-x;
 	background-color: #FFFF;
 	font-size: 16px;
