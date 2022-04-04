@@ -27,8 +27,8 @@ body {
 
 
 /* Style the header */
-.header {
-	background-image: urlurl("../pre-assessment/assets/img/webmo");
+#header {
+	background-image: url("../pre-assessment/assets/img/webmo.png");
 	display: block;
 	height: 140px;
 	width: 800px;
