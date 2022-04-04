@@ -24,17 +24,19 @@ body {
 	margin-top: 20px;
 	border: 1px solid #CCC;
 }
-#header {
-}
-#header h1 a {
-	background-image: url("../img/titlew.png");
+
+
+/* Style the header */
+.header {
+	background-image: urlurl("../pre-assessment/assets/img/webmo");
 	display: block;
 	height: 140px;
 	width: 800px;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-}
+  }
+  
 #nav {
 	background-color: #000;
 }
