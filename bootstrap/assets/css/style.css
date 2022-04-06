@@ -1,0 +1,33 @@
+body {
+    line-height: 1.8;
+    color:black; /* BT color*/
+    font size: 15px;
+}
+
+h1,h2,h3,h4,h5,h6 { /* all headers */
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    }
+
+    a {
+        font-weight: 700;
+        transition: all 0.45s ease;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    small {
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
