@@ -1,7 +1,8 @@
 body {
     line-height: 1.8;
-    color:black; /* BT color*/
+    color:#898fa1; /* BT color*/
     font size: 15px;
+    font-family:'Lato', san-serif;
 }
 
 h1,h2,h3,h4,h5,h6 { /* all headers */
@@ -36,6 +37,12 @@ h1,h2,h3,h4,h5,h6 { /* all headers */
         border-bottom: 1px solid #11245A;
     }
 
+.logo-text {
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#11245A !important;
+}
+
 /*font and spacing for home blog etc */
     .navbar .nav-link {
     font size: 12px;
@@ -44,6 +51,10 @@ h1,h2,h3,h4,h5,h6 { /* all headers */
     
     }
 
-    .navbar .nav-link.active {
-        color:#E93BB1;
+    .navbar-light .navbar-nav .nav-link.active {
+        color:#de6c79; /* change the color of the home words in nav bar */
+    }
+
+    #home{
+       background: linear-gradient(#11245A,#11245A), url
     }
