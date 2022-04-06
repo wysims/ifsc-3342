@@ -31,3 +31,19 @@ h1,h2,h3,h4,h5,h6 { /* all headers */
         padding-bottom: 100px;
 
     }
+    /* color around the header navbar */
+    .navbar{
+        border-bottom: 1px solid #11245A;
+    }
+
+/*font and spacing for home blog etc */
+    .navbar .nav-link {
+    font size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    }
+
+    .navbar .nav-link.active {
+        color:#E93BB1;
+    }
