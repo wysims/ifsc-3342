@@ -214,3 +214,12 @@ h1,h2,h3,h4,h5,h6 { /* all headers */
           .gallery-item:hover img {
             transform: scale(1.1);
           }
+
+          form .form-control {
+          border-radius: 0;
+          }
+
+          form .form-control: focus{
+            box-shadow: none;
+            border-color: #E93B81;
+          }
