@@ -225,8 +225,14 @@ h1,h2,h3,h4,h5,h6 { /* all headers */
             border-color: #E93B81;
           }
 
+
+         
+
+
           #cta{
-            background-color: #474e5d;
+            background: linear-gradient(#5495e586,#1f4fd3b6), url(../img/Declarations.jpg);
+         min-height: 20vh;
+          
           }
 
           .footer-top{
