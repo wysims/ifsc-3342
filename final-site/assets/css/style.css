@@ -275,12 +275,15 @@ h1,h2,h3,h4,h5,h6 { /* all headers */
           border-radius: 0;
           }
 
-          form .form-control: focus{
+          form .form-control focus{
             box-shadow: none;
             border-color: #E93B81;
           }
 
 
+          #devotions{
+                padding: 30px;
+          }
          
 
 
